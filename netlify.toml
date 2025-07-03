@@ -1,0 +1,6 @@
+[build]
+  publish = "public" # Replace "public" with the folder that contains your index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
